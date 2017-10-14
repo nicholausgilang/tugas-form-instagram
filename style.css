@@ -1,0 +1,40 @@
+#kotak {
+  background: #f4f4f4;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  color: #999999;
+
+}
+#kotak .logo img {
+  width: 75%;
+}
+
+.signup{
+  color: #999999;
+  font-size: 20px;
+  padding-bottom: 25px; 
+}
+
+#kotak input {
+  outline: 0;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+#kotak input  {
+  background: #ffffff;
+  width: 100%;
+  color: #999999;
+  font-size: 16px;
+}
+.privacypolice{
+  color: #999999;
+  font-size: 16px;
+}
+
+
+	

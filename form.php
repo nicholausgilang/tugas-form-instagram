@@ -12,7 +12,6 @@
   <b>Sign up to see photos and videos<br>
   from your friends</b>
   </div>
-  <form class="login-form">
     <input type="email" name='email' placeholder="Email"/>
     <input type="text"name='fullname' placeholder="Fullname"/>
     <input type="text" name='username' placeholder="Username"/>

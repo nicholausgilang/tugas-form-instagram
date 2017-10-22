@@ -10,11 +10,24 @@
 <table align="center">
 <hr width="100%">
 <?php
+$host= "localhost";
+$user= "root";
+$password= "";	
 $email=$_POST['email'];
 $fullname=$_POST['fullname'];
 $username=$_POST['username'];
-$password=$_POST['password'];
-$password = str_repeat("*", strlen($password));
+$pswrd=$_POST['password'];
+$pswrd = str_repeat("*", strlen("password"));
+if($username)
+{
+$conn=mysqli_connect ($host,$user,$password);
+mysqli_select_db ($conn,'instagram');
+$sql="insert into tbform values ('$email', '$fullname', '$username', '$password')";
+$hasil=mysqli_query ($conn,$sql);
+}
+else{
+	echo "Gagal Disimpan";
+}
 echo "<tr><td>Email</td>
 		  <td>:</td> 
 		  <td>$email</td>

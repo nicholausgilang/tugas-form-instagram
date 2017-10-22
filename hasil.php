@@ -22,7 +22,7 @@ if($username)
 {
 $conn=mysqli_connect ($host,$user,$password);
 mysqli_select_db ($conn,'instagram');
-$sql="insert into tbform values ('$email', '$fullname', '$username', '$password')";
+$sql="insert into tbform values ('$email', '$fullname', '$username', '$pswrd')";
 $hasil=mysqli_query ($conn,$sql);
 }
 else{
